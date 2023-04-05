@@ -83,14 +83,13 @@ img {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
   display: flex;
+  padding: 24px 0;
 }
 
 .menu-nav {
   display: flex;
   align-items: center;
   margin-right: auto;
-  gap: 40px;
-  padding: 24px 0;
 }
 
 .main-menu {
@@ -133,8 +132,9 @@ img {
 
 /* SECTION ONE */
 
-.container-hero {
+.content-hero {
   background: var(--secondery-accent-background-color);
+  padding: 188px 0;
 }
 
 .title {
@@ -144,6 +144,9 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  max-width: 496px;
+  
+  
 }
 
 .main-btn {
@@ -154,10 +157,14 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background: var(--accent-background-color);
+  display: block;
+  min-width: 169px;
+  height: 56px;
   cursor: pointer;
-  border-radius: 4px;
   border: none;
+  border-radius: 4px;
   padding: 16px 32px;
+  align-items: flex-start;
 }
 
 .main-btn:hover,
