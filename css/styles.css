@@ -273,6 +273,9 @@ img {
 .our-team-card {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  border: 1px solid var(--border-color);
+  border-top: none;
+  
 }
 
 .our-team-subtitle {
