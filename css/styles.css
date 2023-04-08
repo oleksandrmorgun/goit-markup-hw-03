@@ -93,7 +93,6 @@ img {
   align-items: center;
   margin-right: auto;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-link {
@@ -325,7 +324,7 @@ img {
 /* ========== PORTFOLIO ========== */
 
 .portfolio {
-  padding: 96px 120px;
+  padding-top: 96px;
 }
 
 .portfolio-btn-list {
@@ -372,7 +371,6 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--border-color);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-subtitle {
